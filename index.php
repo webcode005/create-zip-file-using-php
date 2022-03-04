@@ -53,7 +53,7 @@ $zipper = new ZipArchiver;
 //or
 
 // Path of the directory to be zipped
-$dirPath = 'D:\xampp\htdocs\test';
+$dirPath = getcwd();
 
 // Enter the name to creating zipped directory
 $zipPath = $dirPath.'\backup-'.date('d-m-Y-h-i-s-a').'.zip';
